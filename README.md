@@ -107,7 +107,7 @@ DB_USER=my_name
 DB_PASSWORD=your_mysql_password
 DB_NAME=todo_app
 ```
-> ⚠️ `.env` is gitignored — never commit real credentials.
+> ⚠️ `.env` is gitignored 
 
 ### 5. Run the app
 ```bash
