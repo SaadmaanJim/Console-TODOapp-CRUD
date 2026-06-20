@@ -57,7 +57,7 @@ npm start
    access-control bug if skipped — worth mentioning in your report as a
    security consideration you accounted for.
 
-5. **Todo App demo**
+## 5. **Todo App demo**
    Here is a demo how the console based To-DO app of mine works.
     https://drive.google.com/file/d/12vPApLf_03Rtkcz1GihpY6ai9KbeDGtr/view?usp=sharing
    
