@@ -35,7 +35,7 @@ npm start
 - `utils/validators.js` → reusable validation functions, no DB or console
 - `config/db.js` → single MySQL connection pool shared by both repositories
 
-## Design decisions made where the spec was ambiguous (explain these in your report)
+## Design decisions 
 
 1. **Passwords are hashed with bcrypt**, not stored in plaintext, even though
    the spec's console flow shows a plaintext-looking value. The `password`
