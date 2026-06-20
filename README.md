@@ -57,15 +57,3 @@ npm start
    access-control bug if skipped — worth mentioning in your report as a
    security consideration you accounted for.
 
-## Test these yourself before submitting
-- Register with a duplicate email → "Email already exists."
-- Register with a 3-character password → should fail; 4 characters → should pass.
-- Login with wrong email, then wrong password → same error message both times.
-- Add a task with an empty title → should fail.
-- Add a task with `priority = "high"` (lowercase) → decide and verify it's rejected unless you normalize case.
-- Add a task with an impossible date like `2026-02-30` → should fail.
-- View tasks with zero tasks → "No tasks found."
-- Edit/Delete a task ID that doesn't exist → "Task not found."
-- Delete a task and answer anything other than "yes" → "Delete cancelled."
-- Search a keyword that matches nothing → "No matching tasks found."
-- Logout → should return to the Welcome (Register/Login/Exit) screen, not the task menu.
